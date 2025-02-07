@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/skills/:path*",
+      "destination": "/skills/:path*"
+    },
+    {
+      "source": "/((?!skills/).*)",
+      "destination": "/$1"
+    }
+  ]
+}
